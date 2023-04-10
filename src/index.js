@@ -10,10 +10,6 @@ const calendar = google.calendar({
 
 let arrayOfTickets = []
 let arrayOfEvents = []
-let dailyStartTime = 0900
-let dailyBreakTime = 1300
-let dailyBreakEnd = 1400
-let dailyEntTime = 1800
 let sprintStartStr = prompt("Enter Start Date Of The Sprint (YYYY-MM-DD) ")
 var sprintStart = new Date(sprintStartStr)
 sprintStart.setHours(9,0,0,0)
